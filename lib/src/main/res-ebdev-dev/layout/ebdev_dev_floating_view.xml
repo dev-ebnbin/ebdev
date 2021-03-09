@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/ebdev_dev"
+        android:textColor="?android:attr/colorBackground"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:background="@drawable/ebdev_dev_floating"
+        android:alpha="0.4"/>
+
+</merge>

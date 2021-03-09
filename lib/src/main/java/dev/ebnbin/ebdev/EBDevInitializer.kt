@@ -5,10 +5,12 @@ import android.content.ContentValues
 import android.database.Cursor
 import android.net.Uri
 import cat.ereza.customactivityoncrash.config.CaocConfig
+import dev.ebnbin.eb.app
 
 internal class EBDevInitializer : ContentProvider() {
     override fun onCreate(): Boolean {
         initCrash()
+        initDev()
         return true
     }
 
@@ -16,6 +18,10 @@ internal class EBDevInitializer : ContentProvider() {
         CaocConfig.Builder.create()
             .errorActivity(CrashActivity::class.java)
             .apply()
+    }
+
+    private fun initDev() {
+        app.registerActivityLifecycleCallbacks(DevFloating)
     }
 
     override fun query(
