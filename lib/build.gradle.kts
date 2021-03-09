@@ -76,8 +76,8 @@ afterEvaluate {
 //*********************************************************************************************************************
 
 dependencies {
-    api(devDependency("ebui"))
+    debugApi(devDependency("ebui"))
 
-    implementation(dependency("com.squareup.leakcanary:leakcanary-android"))
-    implementation(dependency("cat.ereza:customactivityoncrash"))
+    debugImplementation(dependency("com.squareup.leakcanary:leakcanary-android"))
+    debugImplementation(dependency("cat.ereza:customactivityoncrash"))
 }
