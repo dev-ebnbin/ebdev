@@ -77,4 +77,6 @@ afterEvaluate {
 
 dependencies {
     api(devDependency("ebui"))
+
+    implementation(dependency("cat.ereza:customactivityoncrash"))
 }

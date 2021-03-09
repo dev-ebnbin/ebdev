@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ebdev_crash_title">`%1$s` 崩溃了 &#62;_&#60;</string>
+    <string name="ebdev_crash_close">关闭应用</string>
+    <string name="ebdev_crash_restart">重启应用</string>
+</resources>
